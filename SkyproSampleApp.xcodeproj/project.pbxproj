@@ -1,0 +1,404 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A7791F201E8CD622005D797F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A7791F1F1E8CD622005D797F /* main.m */; };
+		A7791F231E8CD622005D797F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A7791F221E8CD622005D797F /* AppDelegate.m */; };
+		A7791F2C1E8CD622005D797F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7791F2A1E8CD622005D797F /* Main.storyboard */; };
+		A7791F2E1E8CD622005D797F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7791F2D1E8CD622005D797F /* Assets.xcassets */; };
+		A7791F311E8CD622005D797F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7791F2F1E8CD622005D797F /* LaunchScreen.storyboard */; };
+		A7791F3B1E8CE5C0005D797F /* XGPS160API.m in Sources */ = {isa = PBXBuildFile; fileRef = A7791F3A1E8CE5C0005D797F /* XGPS160API.m */; };
+		A7791F3E1E8CE66E005D797F /* StreamingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7791F3D1E8CE66E005D797F /* StreamingViewController.m */; };
+		A7791F411E8CEAF9005D797F /* WaitingToConnectView.m in Sources */ = {isa = PBXBuildFile; fileRef = A7791F401E8CEAF9005D797F /* WaitingToConnectView.m */; };
+		A7791F441E8CEC1C005D797F /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7791F431E8CEC1C005D797F /* ExternalAccessory.framework */; };
+		A7791F461E8CEC30005D797F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7791F451E8CEC30005D797F /* CoreGraphics.framework */; };
+		A7791F481E8CEC3D005D797F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7791F471E8CEC3D005D797F /* UIKit.framework */; };
+		A7791F4A1E8CEC49005D797F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7791F491E8CEC49005D797F /* Foundation.framework */; };
+		A7791F4D1E8CF84E005D797F /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7791F4C1E8CF84E005D797F /* SettingsViewController.m */; };
+		A7791F501E8D00DC005D797F /* LogListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7791F4F1E8D00DC005D797F /* LogListTableViewController.m */; };
+		A7791F531E8D014B005D797F /* LogListEntryTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A7791F521E8D014B005D797F /* LogListEntryTableViewCell.m */; };
+		A7791F561E8D0217005D797F /* LogDataSampleTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7791F551E8D0217005D797F /* LogDataSampleTableViewController.m */; };
+		A7791F591E8D0266005D797F /* LogDataSampleTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A7791F581E8D0266005D797F /* LogDataSampleTableViewCell.m */; };
+		A7791F5C1E8D02B5005D797F /* ProgressDialogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7791F5B1E8D02B5005D797F /* ProgressDialogViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A7791F1B1E8CD622005D797F /* SkyproSampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkyproSampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7791F1F1E8CD622005D797F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A7791F211E8CD622005D797F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A7791F221E8CD622005D797F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A7791F2B1E8CD622005D797F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A7791F2D1E8CD622005D797F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A7791F301E8CD622005D797F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A7791F321E8CD622005D797F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7791F391E8CE5C0005D797F /* XGPS160API.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XGPS160API.h; sourceTree = "<group>"; };
+		A7791F3A1E8CE5C0005D797F /* XGPS160API.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XGPS160API.m; sourceTree = "<group>"; };
+		A7791F3C1E8CE66E005D797F /* StreamingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StreamingViewController.h; path = ../StreamingViewController.h; sourceTree = "<group>"; };
+		A7791F3D1E8CE66E005D797F /* StreamingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StreamingViewController.m; path = ../StreamingViewController.m; sourceTree = "<group>"; };
+		A7791F3F1E8CEAF9005D797F /* WaitingToConnectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaitingToConnectView.h; sourceTree = "<group>"; };
+		A7791F401E8CEAF9005D797F /* WaitingToConnectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaitingToConnectView.m; sourceTree = "<group>"; };
+		A7791F431E8CEC1C005D797F /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
+		A7791F451E8CEC30005D797F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A7791F471E8CEC3D005D797F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A7791F491E8CEC49005D797F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A7791F4B1E8CF84E005D797F /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		A7791F4C1E8CF84E005D797F /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		A7791F4E1E8D00DC005D797F /* LogListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogListTableViewController.h; sourceTree = "<group>"; };
+		A7791F4F1E8D00DC005D797F /* LogListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogListTableViewController.m; sourceTree = "<group>"; };
+		A7791F511E8D014B005D797F /* LogListEntryTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogListEntryTableViewCell.h; sourceTree = "<group>"; };
+		A7791F521E8D014B005D797F /* LogListEntryTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogListEntryTableViewCell.m; sourceTree = "<group>"; };
+		A7791F541E8D0217005D797F /* LogDataSampleTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogDataSampleTableViewController.h; sourceTree = "<group>"; };
+		A7791F551E8D0217005D797F /* LogDataSampleTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogDataSampleTableViewController.m; sourceTree = "<group>"; };
+		A7791F571E8D0266005D797F /* LogDataSampleTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogDataSampleTableViewCell.h; sourceTree = "<group>"; };
+		A7791F581E8D0266005D797F /* LogDataSampleTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogDataSampleTableViewCell.m; sourceTree = "<group>"; };
+		A7791F5A1E8D02B5005D797F /* ProgressDialogViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressDialogViewController.h; sourceTree = "<group>"; };
+		A7791F5B1E8D02B5005D797F /* ProgressDialogViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressDialogViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A7791F181E8CD622005D797F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7791F4A1E8CEC49005D797F /* Foundation.framework in Frameworks */,
+				A7791F481E8CEC3D005D797F /* UIKit.framework in Frameworks */,
+				A7791F461E8CEC30005D797F /* CoreGraphics.framework in Frameworks */,
+				A7791F441E8CEC1C005D797F /* ExternalAccessory.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A7791F121E8CD622005D797F = {
+			isa = PBXGroup;
+			children = (
+				A7791F381E8CE497005D797F /* XGPS160API */,
+				A7791F1D1E8CD622005D797F /* SkyproSampleapp */,
+				A7791F1C1E8CD622005D797F /* Products */,
+				A7791F421E8CEC1C005D797F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A7791F1C1E8CD622005D797F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7791F1B1E8CD622005D797F /* SkyproSampleApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A7791F1D1E8CD622005D797F /* SkyproSampleapp */ = {
+			isa = PBXGroup;
+			children = (
+				A7791F211E8CD622005D797F /* AppDelegate.h */,
+				A7791F221E8CD622005D797F /* AppDelegate.m */,
+				A7791F571E8D0266005D797F /* LogDataSampleTableViewCell.h */,
+				A7791F581E8D0266005D797F /* LogDataSampleTableViewCell.m */,
+				A7791F541E8D0217005D797F /* LogDataSampleTableViewController.h */,
+				A7791F551E8D0217005D797F /* LogDataSampleTableViewController.m */,
+				A7791F511E8D014B005D797F /* LogListEntryTableViewCell.h */,
+				A7791F521E8D014B005D797F /* LogListEntryTableViewCell.m */,
+				A7791F4E1E8D00DC005D797F /* LogListTableViewController.h */,
+				A7791F4F1E8D00DC005D797F /* LogListTableViewController.m */,
+				A7791F5A1E8D02B5005D797F /* ProgressDialogViewController.h */,
+				A7791F5B1E8D02B5005D797F /* ProgressDialogViewController.m */,
+				A7791F4B1E8CF84E005D797F /* SettingsViewController.h */,
+				A7791F4C1E8CF84E005D797F /* SettingsViewController.m */,
+				A7791F3C1E8CE66E005D797F /* StreamingViewController.h */,
+				A7791F3D1E8CE66E005D797F /* StreamingViewController.m */,
+				A7791F3F1E8CEAF9005D797F /* WaitingToConnectView.h */,
+				A7791F401E8CEAF9005D797F /* WaitingToConnectView.m */,
+				A7791F2A1E8CD622005D797F /* Main.storyboard */,
+				A7791F2D1E8CD622005D797F /* Assets.xcassets */,
+				A7791F2F1E8CD622005D797F /* LaunchScreen.storyboard */,
+				A7791F321E8CD622005D797F /* Info.plist */,
+				A7791F1E1E8CD622005D797F /* Supporting Files */,
+			);
+			name = SkyproSampleapp;
+			path = statusSDK;
+			sourceTree = "<group>";
+		};
+		A7791F1E1E8CD622005D797F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A7791F1F1E8CD622005D797F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A7791F381E8CE497005D797F /* XGPS160API */ = {
+			isa = PBXGroup;
+			children = (
+				A7791F391E8CE5C0005D797F /* XGPS160API.h */,
+				A7791F3A1E8CE5C0005D797F /* XGPS160API.m */,
+			);
+			name = XGPS160API;
+			sourceTree = "<group>";
+		};
+		A7791F421E8CEC1C005D797F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A7791F491E8CEC49005D797F /* Foundation.framework */,
+				A7791F471E8CEC3D005D797F /* UIKit.framework */,
+				A7791F451E8CEC30005D797F /* CoreGraphics.framework */,
+				A7791F431E8CEC1C005D797F /* ExternalAccessory.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A7791F1A1E8CD622005D797F /* SkyproSampleApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7791F351E8CD622005D797F /* Build configuration list for PBXNativeTarget "SkyproSampleApp" */;
+			buildPhases = (
+				A7791F171E8CD622005D797F /* Sources */,
+				A7791F181E8CD622005D797F /* Frameworks */,
+				A7791F191E8CD622005D797F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SkyproSampleApp;
+			productName = statusSDK;
+			productReference = A7791F1B1E8CD622005D797F /* SkyproSampleApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A7791F131E8CD622005D797F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Mr.choi;
+				TargetAttributes = {
+					A7791F1A1E8CD622005D797F = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = A32KJ46WFF;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A7791F161E8CD622005D797F /* Build configuration list for PBXProject "SkyproSampleApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A7791F121E8CD622005D797F;
+			productRefGroup = A7791F1C1E8CD622005D797F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A7791F1A1E8CD622005D797F /* SkyproSampleApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A7791F191E8CD622005D797F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7791F311E8CD622005D797F /* LaunchScreen.storyboard in Resources */,
+				A7791F2E1E8CD622005D797F /* Assets.xcassets in Resources */,
+				A7791F2C1E8CD622005D797F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A7791F171E8CD622005D797F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7791F5C1E8D02B5005D797F /* ProgressDialogViewController.m in Sources */,
+				A7791F3E1E8CE66E005D797F /* StreamingViewController.m in Sources */,
+				A7791F531E8D014B005D797F /* LogListEntryTableViewCell.m in Sources */,
+				A7791F411E8CEAF9005D797F /* WaitingToConnectView.m in Sources */,
+				A7791F4D1E8CF84E005D797F /* SettingsViewController.m in Sources */,
+				A7791F591E8D0266005D797F /* LogDataSampleTableViewCell.m in Sources */,
+				A7791F501E8D00DC005D797F /* LogListTableViewController.m in Sources */,
+				A7791F561E8D0217005D797F /* LogDataSampleTableViewController.m in Sources */,
+				A7791F3B1E8CE5C0005D797F /* XGPS160API.m in Sources */,
+				A7791F231E8CD622005D797F /* AppDelegate.m in Sources */,
+				A7791F201E8CD622005D797F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A7791F2A1E8CD622005D797F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7791F2B1E8CD622005D797F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A7791F2F1E8CD622005D797F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7791F301E8CD622005D797F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A7791F331E8CD622005D797F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A7791F341E8CD622005D797F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A7791F361E8CD622005D797F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A32KJ46WFF;
+				INFOPLIST_FILE = statusSDK/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dualav.SkyproSampleApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A7791F371E8CD622005D797F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A32KJ46WFF;
+				INFOPLIST_FILE = statusSDK/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dualav.SkyproSampleApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A7791F161E8CD622005D797F /* Build configuration list for PBXProject "SkyproSampleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7791F331E8CD622005D797F /* Debug */,
+				A7791F341E8CD622005D797F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7791F351E8CD622005D797F /* Build configuration list for PBXNativeTarget "SkyproSampleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7791F361E8CD622005D797F /* Debug */,
+				A7791F371E8CD622005D797F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A7791F131E8CD622005D797F /* Project object */;
+}
